@@ -7,4 +7,12 @@ public class Pet {
         this.name = name;
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                '}';
+    }
 }
